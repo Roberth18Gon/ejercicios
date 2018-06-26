@@ -1,0 +1,63 @@
+/* line 8, ../sass/style.scss */
+/* line 2, ../sass/style.scss */
+.content > div {
+  margin: 0 25px;
+}
+
+/* line 12, ../sass/style.scss */
+/* line 7, ../sass/style.scss */
+.content h1 {
+  font-family: fantasy;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* line 18, ../sass/style.scss */
+/* line 14, ../sass/style.scss */
+.content {
+  display: flex;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/* line 24, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
+.content h1 {
+  text-align: center;
+}
+
+/* line 34, ../sass/style.scss */
+/* line 27, ../sass/style.scss */
+#square {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+/* line 40, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
+#circle {
+  margin: 0 10px;
+  width: 100px;
+  height: 100px;
+  background: #000000;
+  background: radial-gradient(ellipse at center, #000000 1%, #8f0222 50%, #000000 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  border-radius: 50px;
+}
+
+/* line 50, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
+#star-five {
+  margin: 0 10px;
+  width: 100px;
+  height: 100px;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  background: #eaf734;
+  background: linear-gradient(yellow, green);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaf734', endColorstr='#37e627', GradientType=0 );
+}
